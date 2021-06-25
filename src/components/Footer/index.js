@@ -48,15 +48,15 @@ const Footer = () => {
             <h5> <strong> ROSALYNE DUARTE </strong> </h5>
                 <div class="mt-3">
 
-                <a className="link" class="snip1472" href="https://www.linkedin.com/in/rosalyneduarte/" target="_blank"> 
+                <a className="link" class="snip1472" href="https://www.linkedin.com/in/rosalyneduarte/" > 
                      <img src={linkedin1} alt="Logo Linkedin" class="color mb-2" />
                 </a>
             
-                <a className="link" class="snip1472" href="https://github.com/rosalyneduarte" target="_blank" > 
+                <a className="link" class="snip1472" href="https://github.com/rosalyneduarte"  > 
                     <img src={git} alt="Logo GitHub" class="color mb-1" /> 
                 </a>
 
-                <a className="link" class="snip1472" href="https://www.instagram.com/rosaduartt/" target="_blank">
+                <a className="link" class="snip1472" href="https://www.instagram.com/rosaduartt/" >
                      <img src={insta} alt="Logo Insta" class="color mb-1" />
                 </a>
                 </div>
