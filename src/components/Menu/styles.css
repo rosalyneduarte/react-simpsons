@@ -1,3 +1,8 @@
+.marcador-menu{
+    height: 15vh;
+    background-color: #53C1DE;
+}
+
 .menu {
     margin: 2rem;
     display: flex;
@@ -8,11 +13,21 @@
 .menu li {
     margin-left: 4rem;
     list-style: none;
+ 
 }
 
 .link {
-    color: wheat;
+    color: #F5DEB3;
     text-decoration: none;
+    font-weight: 700;
+    padding: 10px;
+    border: 1px solid;
+    background-color: #4F2158;
+}
+.link:hover{
+    color:#4F2158;
+    background-color: #F5DEB3;
+    border: #4F2158;
 }
 
 @media (max-width:768px){

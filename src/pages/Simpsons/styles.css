@@ -13,6 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: none;
 
 }
 
@@ -27,9 +28,9 @@
 
 
 .main-simpson button {
-    background-color: black;
+    background-color: #4f2158;
     border: none;
-    color: white;
+    color: wheat;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -37,6 +38,14 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+p {
+    font-size: 22px; 
+    font-weight: bold;
+    color: #4f2158;
+}
+.main-simpson button:hover {
+    color: #4f2158;
 }
 
 @media (max-width:768px){

@@ -6,19 +6,23 @@ import './styles.css'
 const Menu = () => {
     return(
         <div>
-            <ul className="menu">
-                <li>
-                    <Link className="link" to="/"> Home </Link>
-                </li>
+            <div class="row">
+                <div class="col-12 marcador-menu">
+                    <ul className="menu text text-center">
+                        <li>
+                            <Link className="link" to="/"> Home </Link>
+                        </li>
 
-                <li>
-                    <Link className="link" to="/simpsons"> Simpsons </Link>
-                </li>
+                        <li>
+                            <Link className="link" to="/simpsons"> Simpsons </Link>
+                        </li>
 
-                <li>
-                    <Link className="link" to="/minhaPagina"> Minha Pagina </Link>
-                </li>
-            </ul>
+                        <li>
+                            <Link className="link" to="/minhaPagina"> Breaking Bad </Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 }
